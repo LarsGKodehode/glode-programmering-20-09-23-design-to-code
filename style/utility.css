@@ -1,3 +1,13 @@
+/* 
+  Ofte så har vi et sett med
+  CSS vi bruker i flere forskjellige
+  settinger. For å gjøre dette enklere
+  å bruke, og enklere å vedlikeholde,
+  så har jeg laget et sett med
+  "utility" klasser (CSS klasser som
+  kun består av en eller et par
+  CSS properties).
+*/
 .flex {
   display: flex;
 }
@@ -41,8 +51,4 @@
 
 .max-w-xl {
   max-width: 600px;
-}
-
-.font-2xl {
-  font-size: xx-large;
 }

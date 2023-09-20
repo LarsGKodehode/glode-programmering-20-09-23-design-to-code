@@ -1,3 +1,14 @@
+/* 
+  Mye tanker og tid kan gå med for
+  å komme fram til hvordan tekst of skrift
+  skal se ut, siden dette er litt utenfor
+  resten av stylingen så har jeg samlet de
+  avgjørelsene inne i denne filen
+*/
 :root {
   font-size: 20px;
+}
+
+.font-2xl {
+  font-size: xx-large;
 }

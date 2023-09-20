@@ -1,3 +1,8 @@
+/*
+  HTML elementer kommer med en del default
+  styling. I denne filen har jeg samlet
+  de tingene jeg overskriver.
+*/
 body {
   margin: 0px;
 }

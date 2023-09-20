@@ -1,11 +1,34 @@
+/*
+  Alle mulige farger er tidvis litt mye å
+  jobbe med. Her benytter vi oss av 
+  CSS variabler så vi kun trenger å
+  tenke på en håndfull i gangen
+*/
+
+/*
+  Variablene inni :root vil være
+  det som blir standard verdiene
+*/
 :root {
   --color-primary: #f06f22;
 }
 
-.palett-dark {
+/* 
+  Vi kan bytte ut standard verdiene
+  ved å legge til en klasse på <body class="theme-dark">
+  som vil overskrive de med det som står inni
+  her
+*/
+.theme-dark {
   --color-primary: #29109b;
 }
 
+/* 
+  Akkurat hvordan du velger å bruke de er litt
+  opp til deg, men et eget sett med CSS klasser
+  for å spesifisere bakgrunn og forgrunn (tekst)
+  fargen kan være en løsning
+*/
 .bg-primary {
   background-color: var(--color-primary);
 }
