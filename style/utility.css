@@ -1,0 +1,48 @@
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.max-w-sm {
+  max-width: 350px;
+}
+
+.max-w-lg {
+  max-width: 500px;
+}
+
+.max-w-xl {
+  max-width: 600px;
+}
+
+.font-2xl {
+  font-size: xx-large;
+}

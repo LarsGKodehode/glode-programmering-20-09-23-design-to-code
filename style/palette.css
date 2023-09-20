@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #f06f22;
+}
+
+.palett-dark {
+  --color-primary: #29109b;
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
