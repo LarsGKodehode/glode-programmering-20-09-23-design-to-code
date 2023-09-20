@@ -18,3 +18,10 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.background-info {
+  background-image: url("./assets/code-brackets.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
