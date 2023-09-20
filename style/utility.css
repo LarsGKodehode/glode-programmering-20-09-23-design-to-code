@@ -8,6 +8,13 @@
   kun består av en eller et par
   CSS properties).
 */
+
+/*
+  De forksjellige Flexbox klassene
+  er noe som går veldig mye igjen
+  for å justere på hvordan elementer
+  blir plassert.
+*/
 .flex {
   display: flex;
 }
@@ -37,10 +44,18 @@
   text-align: center;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
+/* 
+  Å sette maksimums bredde på
+  elementer (eller kontainere) med
+  tekst innhold sørger for at
+  vi ikke får 2km lange linjer.
+  Det gjør det endel lettere
+  å lese ;-)
 
+  Her er den delt opp i større
+  og mindre seksjoner så vi har
+  litt å velge i mellom.
+*/
 .max-w-sm {
   max-width: 350px;
 }
@@ -51,4 +66,27 @@
 
 .max-w-xl {
   max-width: 600px;
+}
+
+/*
+  Litt forksjellige klasser
+  for ting som er greit å ha
+  lett tilgjengelig, men som
+  ikke helt passer i de andre
+  kategoriene
+*/
+
+/*
+  min-height: 100vh; er nyttig for
+  hele applikasjonen vår for at den
+  skal bruke minst hele skjermen.
+
+  Den kan og være nyttig viss på
+  elementer som en hero seksjon,
+  eller andre seksjoner som vi
+  ønsker skal breie seg over hele
+  skjermen,
+*/
+.min-h-screen {
+  min-height: 100vh;
 }
